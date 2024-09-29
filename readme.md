@@ -17,7 +17,8 @@
 - `src/s3` - реализация клиента для взаимодействия с S3 хранилищем
 - `src/app.py` - описание middleware для реализации API
 - `src/mq` - реализация RabbitMQ клиента (не применено)
-- `src/ml` - ML и ML Worker
+- `src/ml` - ML и ML Worker, более подробная информация в
+[документации](https://docs.google.com/document/d/1lBIVPUoFzaAPV_0Q74qV5I_HffDHEbQxrW-7xzyaoxs/edit?usp=sharing)
 - `services` - описания сервисов, выполняемых в контейнерах
 - `services/server` - Dockerfile, зависимости и скрипт инициализации
 сервера API
